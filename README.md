@@ -18,7 +18,7 @@ prepare_receptor -r alpha1-alpha1.pdb -A hydrogens -U waters -o receptor.pdbqt
 
 ## AGFR
 ```
-agfr -r receptor.pdbqt -l ../reference_ligands/KSEB-01-S2.pdbqt -o ligPocket -s 0.5 -b user 15.382 -16.956 0.209 60 60 60
+agfr -r receptor.pdbqt -l ../reference_ligands/KSEB-01-S2.pdbqt -o ligPocket -s 0.5 -b user 15.382 -16.956 0.209 40 40 40
 ```
 
 ## Autodock-gpu
